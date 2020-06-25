@@ -1,0 +1,48 @@
+*{
+	background-color: orange;
+	margin: 0;
+	padding: 0;
+}
+/*estilo do fundo menu*/
+.menu{
+	width: 900px;
+	background: red;
+	background-image:url('../imagens/putz.jfif');
+	background-size: auto;
+	margin: 20px auto;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 90px;
+	padding-bottom:  90px; 
+	text-align: center;
+}
+.menu a:hover{
+	background-color: blue;
+}
+.menu a:active{
+	background-color: black;
+}
+/*estilo do texto menu*/
+.menu a{
+	font-size: 24px;
+	background-color: green;
+	text-decoration: none;
+	color: black;
+	margin:10px;
+}
+.texto{
+	background-color: green;
+	width: 980px;
+	margin: 40px auto;
+	text-align: center
+}
+.texto h1{
+	font-size: 28px;
+}
+.texto p{
+	border-top: 3px dotted rgb(255,0,0);
+	background-color: green; 
+	font-size: 20px;
+	margin: 20px 30px;
+	text-align: justify;
+}
